@@ -1,0 +1,9 @@
+{
+                "platformName": "Android",
+                "deviceName": "Galaxy S9",
+                "automationName": "UiAutomator2",
+                "autoGrantPermissions": true,
+                "uiautomator2ServerLaunchTimeout": "50000",
+                "appWaitActivity": "com.soundcloud.android.main.LauncherActivity",
+                "appActivity": "com.soundcloud.android.main.LauncherActivity"
+}
