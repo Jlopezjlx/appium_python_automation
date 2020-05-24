@@ -4,14 +4,12 @@ import time
 
 sys.path.append("./")
 
-from project.pages.homePage.pageMethods import HomePage
-from project.utils.wait_utils import WaitUtils
-
-home_page = HomePage()
+from project.test.baseTest import BaseTest
 
 
-def test_home_page(driver):
-    home_page.clicking_create_an_account_button()
-    time.sleep(4)
-    driver.shutdown()
+class TestHome(BaseTest):
+    def test_home_page(self):
+        self.home.clicking_create_an_account_button()
+        time.sleep(4)
+        self.driver.shutdown()
 
