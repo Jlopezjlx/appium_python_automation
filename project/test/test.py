@@ -12,4 +12,3 @@ class TestHome(BaseTest):
         self.home.clicking_create_an_account_button()
         time.sleep(4)
         self.driver.shutdown()
-
